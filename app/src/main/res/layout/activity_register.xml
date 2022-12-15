@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/gotham"
+        android:text="Welcome OnBoard"
+        android:textSize="25sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/text2"
+        android:padding="30dp"
+        android:id="@+id/ly_1">
+
+        <EditText
+            android:layout_width="357dp"
+            android:layout_height="55dp"
+            android:background="@drawable/buttonshape"
+            android:backgroundTint="@color/colorWhite"
+            android:hint="Enter Your Full Name"
+            android:paddingLeft="10dp"
+            android:id="@+id/fullname"/>
+
+        <EditText
+            android:layout_width="357dp"
+            android:layout_height="55dp"
+            android:background="@drawable/buttonshape"
+            android:backgroundTint="@color/colorWhite"
+            android:hint="Enter Your Email"
+            android:paddingLeft="10dp"
+            android:id="@+id/email"/>
+        <EditText
+            android:layout_width="357dp"
+            android:layout_height="55dp"
+            android:background="@drawable/buttonshape"
+            android:backgroundTint="@color/colorWhite"
+            android:hint="Create Password"
+            android:paddingLeft="10dp"
+            android:id="@+id/password"/>
+        <EditText
+            android:layout_width="357dp"
+            android:layout_height="55dp"
+            android:background="@drawable/buttonshape"
+            android:backgroundTint="@color/colorWhite"
+            android:hint="Confirm Password"
+            android:paddingLeft="10dp"
+            android:id="@+id/confr_password"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshape"
+        android:width="300dp"
+        android:id="@+id/btn_login"
+        android:layout_below="@id/ly_1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/btn_login"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:text="Login"
+            android:id="@+id/txt_login"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

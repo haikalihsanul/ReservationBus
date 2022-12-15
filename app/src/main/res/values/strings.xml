@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bus Booking App UI</string>
+    <string name="login">
+        Login
+</string>
+    <string name="welcome_onb">
+
+Welcome Onbard!
+</string>
+</resources>
