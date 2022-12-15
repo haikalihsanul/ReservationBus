@@ -12,33 +12,44 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:targetApi="31">
+        <activity
+            android:name=".ChoosePayment"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".PaymentDetail"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity android:name=".Main3Activity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Main2Activity"/>
+                android:value=".Main2Activity" />
         </activity>
         <activity android:name=".Main2Activity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
         </activity>
-        <activity
-            android:name=".MainActivity">
+        <activity android:name=".MainActivity">
             <meta-data
-                android:name ="android.support.PARENT_ACTIVITY"
-                android:value=".LoginActivity"/>
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity" />
         </activity>
-        <activity
-            android:name=".LoginActivity">
+        <activity android:name=".LoginActivity">
             <meta-data
-                android:name ="android.support.PARENT_ACTIVITY"
-                android:value=".SplashScreen"/>
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SplashScreen" />
         </activity>
-        <activity
-            android:name=".RegisterActivity">
+        <activity android:name=".RegisterActivity">
             <meta-data
-                android:name ="android.support.PARENT_ACTIVITY"
-                android:value=".SplashScreen"/>
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SplashScreen" />
         </activity>
         <activity
             android:name=".SplashScreen"
