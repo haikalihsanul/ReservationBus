@@ -933,7 +933,18 @@
 
                 </androidx.cardview.widget.CardView>
 
-
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_marginHorizontal="32dp"
+                    android:id="@+id/btnBook"
+                    android:layout_width="315dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="30dp"
+                    android:backgroundTint="#512da8"
+                    android:text="BOOK NOW"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp"
+                    android:letterSpacing="0.01"/>
             </LinearLayout>
 
         </ScrollView>
